@@ -40,7 +40,7 @@ struct elf_program_header {
 /*
  * static funcition == private function
  */
-static int elf_check(struct elf_header * header)
+static int elf_check(struct elf_header *header)
 {
     if(memcmp(header->id.magic, "\x7f" "ELF", 4))
         return -1;
