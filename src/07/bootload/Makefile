@@ -13,9 +13,9 @@ OBJDUMP = $(BINDIR)/$(ADDNAME)objdump
 RANLIB  = $(BINDIR)/$(ADDNAME)ranlib
 STRIP   = $(BINDIR)/$(ADDNAME)strip
 
-H8WRITE = ../tools/h8write/h8write
+H8WRITE = ../../tools/h8write/h8write
 
-H8WRITE_SERDEV = /dev/ttyUSBx
+H8WRITE_SERDEV = /dev/ttyUSB0
 
 
 OBJS = vector.o startup.o intr.o main.o interrupt.o

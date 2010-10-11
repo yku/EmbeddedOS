@@ -46,6 +46,7 @@ $(TARGET) :	$(OBJS)
 
 .S.o :		$<
 		$(CC) -c $(CFLAGS) $<
+
 clean :
 		rm -f $(OBJS) $(TARGET) $(TARGET).elf 
 
